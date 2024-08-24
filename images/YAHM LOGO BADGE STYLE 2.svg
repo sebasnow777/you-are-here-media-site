@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420.68 406">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-3 {
+        font-family: Montserrat-ExtraBold, Montserrat;
+        font-size: 52.68px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <g id="Layer_4">
+    <polygon points="210.34 251.16 283.85 123.84 136.83 123.84 210.34 251.16"/>
+    <g id="Layer_2">
+      <circle cx="210.34" cy="83.7" r="83.7"/>
+      <circle class="cls-1" cx="210.34" cy="83.32" r="47.39"/>
+    </g>
+  </g>
+  <g id="Layer_3">
+    <text class="cls-3" transform="translate(1.05 329.68)"><tspan class="cls-2" x="0" y="0">Y</tspan><tspan x="34.93" y="0">OU ARE HERE</tspan><tspan x="115.59" y="62.2">MEDIA</tspan></text>
+  </g>
+</svg>
