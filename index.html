@@ -26,44 +26,8 @@
       <!-- Flex Container for Nav items -->
       <div class="flex items-center justify-between space-x-20 my-6">
         <!-- Logo -->
-        <div class="z-20 h32 w-32 mx-auto p-0 lg:mx-0">
-          <?xml version="1.0" encoding="UTF-8"?>
-          <?xml version="1.0" encoding="UTF-8"?>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250">
-            <defs>
-              <style>
-                .cls-1 {
-                  fill: #fff;
-                }
-
-                .cls-2 {
-                  letter-spacing: -0.03em;
-                }
-
-                .cls-3 {
-                  font-family: Montserrat-ExtraBold, Montserrat;
-                  font-size: 29.98px;
-                  font-weight: 700;
-                }
-              </style>
-            </defs>
-            <g id="Layer_4">
-              <polygon
-                points="125.64 152.9 167.46 80.46 83.81 80.46 125.64 152.9"
-              />
-              <g id="Layer_2">
-                <circle cx="125.64" cy="57.62" r="47.62" />
-                <circle class="cls-1" cx="125.64" cy="57.41" r="26.97" />
-              </g>
-            </g>
-            <g id="Layer_3">
-              <text class="cls-3" transform="translate(6.56 197.58)">
-                <tspan class="cls-2" x="0" y="0">Y</tspan>
-                <tspan x="19.87" y="0">OU ARE HERE</tspan>
-                <tspan x="65.77" y="35.39">MEDIA</tspan>
-              </text>
-            </g>
-          </svg>
+        <div class="z-30 h32 w-32 mx-0 p-0 sm:h20 sm:w-20 lg:mx-0">
+          <img src="./images/yahm-badge-logo-style-4.svg" alt="" id="logo">
         </div>
         <!-- Menu Items -->
         <div
@@ -86,6 +50,34 @@
           >
         </div>
         <!-- Hamburger button -->
+         <button id="menu-btn"
+         class="z-30 block md:hidden focus:outline-none 
+         hamburger"
+         >
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+      <!-- Mobile Menu -->
+      <div id="menu" 
+       class="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-veryDarkBlue"
+       >
+        <div class="w-full py-3 text-center">
+          <a href="#about" class="block hover:text-softRed">About</a>
+        </div>
+        <div class="w-full py-3 text-center">
+          <a href="#examples" class="block hover:text-softRed">Examples</a>
+        </div>
+        <div class="w-full py-3 text-center">
+          <a href="#pricing" class="block hover:text-softRed">Pricing</a>
+        </div>
+        <div class="w-full py-3 text-center">
+          <a href="#contact-form" class="block hover:text-softRed">Get Started</a>
+        </div>
+        <div class="w-full py-3 text-center hover:text-softRed">
+          <a href="#faq" class="block">FAQs</a>
+        </div>
       </div>
     </nav>
 
@@ -678,7 +670,7 @@
   </div>
 
         <!-- Socials Container -->
-        <div class="flex justify-center space-x-10 ">
+        <div class="flex justify-center p-10 space-x-10">
           <a href="#">
             <img src="./images/instagram.png" alt="" class="h-6 ficon" />
           </a>
