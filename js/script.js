@@ -37,4 +37,10 @@ function navToggle() {
   btn.classList.toggle('open');
   menu.classList.toggle('flex');
   menu.classList.toggle('hidden');
+
+  if (menu.classList.contains('flex')) {
+    logo.setAttribute('src', './image/yahm-badge-logo-style-4.svg');
+  } else {
+    logo.setAttribute('src', './images/yahm-badge-logo-style-4.svg');
+  }
 }
