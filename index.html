@@ -1,582 +1,456 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Rubik FontFamily -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+JP:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=VT323&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <!-- monstserratfont family -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=VT323&display=swap"
-      rel="stylesheet"
-    />
-    <script src="js/script.js" defer></script>
-    <title>You Are Here Media</title>
-  </head>
-  <body class="overflow-x-hidden">
-    <nav class="container relative mx-auto p-5">
-      <!-- Flex Container for Nav items -->
-      <div class="flex items-center justify-between space-x-20 my-2">
-        <!-- Logo -->
-        <div class="z-30 h32 w-32 mx-0 p-3 lg:mx-0">
-          <?xml version="1.0" encoding="UTF-8"?>
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250" id="logo">
-            <defs>
-              <style>
-                .cls-1 {
-                  fill: #fff;
-                }
 
-                .cls-2 {
-                  letter-spacing: -.03em;
-                }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Rubik FontFamily -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+JP:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=VT323&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <!-- monstserratfont family -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=VT323&display=swap"
+    rel="stylesheet" />
+  <script src="js/script.js" defer></script>
+  <title>You Are Here Media</title>
+</head>
 
-                .cls-3 {
-                  font-family: Montserrat-ExtraBold, Montserrat;
-                  font-size: 29.98px;
-                  font-weight: 700;
-                }
-              </style>
-            </defs>
-            <g id="Layer_4">
-              <polygon points="125.64 152.9 167.46 80.46 83.81 80.46 125.64 152.9"/>
-              <g id="Layer_2">
-                <circle cx="125.64" cy="57.62" r="47.62"/>
-                <circle class="cls-1" cx="125.64" cy="57.41" r="26.97"/>
-              </g>
+<body class="overflow-x-hidden">
+  <nav class="container relative mx-auto p-5">
+    <!-- Flex Container for Nav items -->
+    <div class="flex items-center justify-between space-x-20 my-2">
+      <!-- Logo -->
+      <div class="z-30 h32 w-32 mx-0 p-3 lg:mx-0">
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250" id="logo">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: #fff;
+              }
+
+              .cls-2 {
+                letter-spacing: -.03em;
+              }
+
+              .cls-3 {
+                font-family: Montserrat-ExtraBold, Montserrat;
+                font-size: 29.98px;
+                font-weight: 700;
+              }
+            </style>
+          </defs>
+          <g id="Layer_4">
+            <polygon points="125.64 152.9 167.46 80.46 83.81 80.46 125.64 152.9" />
+            <g id="Layer_2">
+              <circle cx="125.64" cy="57.62" r="47.62" />
+              <circle class="cls-1" cx="125.64" cy="57.41" r="26.97" />
             </g>
-            <g id="Layer_3">
-              <text class="cls-3" transform="translate(6.56 197.58)"><tspan class="cls-2" x="0" y="0">Y</tspan><tspan x="19.87" y="0">OU ARE HERE</tspan><tspan x="65.77" y="35.39">MEDIA</tspan></text>
-            </g>
-          </svg>
-        </div>
-        <!-- Menu Items -->
-        <div
-          class="hidden items-center space-x-10 uppercase text-grayishBlue md:flex"
-        >
-          <a href="#about" class="tracking-widest hover:text-softRed">About</a>
+          </g>
+          <g id="Layer_3">
+            <text class="cls-3" transform="translate(6.56 197.58)">
+              <tspan class="cls-2" x="0" y="0">Y</tspan>
+              <tspan x="19.87" y="0">OU ARE HERE</tspan>
+              <tspan x="65.77" y="35.39">MEDIA</tspan>
+            </text>
+          </g>
+        </svg>
+      </div>
+      <!-- Menu Items -->
+      <div class="hidden items-center space-x-10 uppercase text-grayishBlue md:flex">
+        <a href="#about" class="tracking-widest hover:text-softRed">About</a>
 
-          <a href="#examples" class="tracking-widest hover:text-softRed"
-            >Examples</a
-          >
+        <a href="#examples" class="tracking-widest hover:text-softRed">Examples</a>
 
-          <a href="#pricing" class="tracking-widest hover:text-softRed"
-            >Pricing</a
-          >
+        <a href="#pricing" class="tracking-widest hover:text-softRed">Pricing</a>
 
-          <a
-            href="#contact-form"
-            class="tracking-widest px-8 py-2 text-white bg-softRed border-2 border-softRed rounded-lg shadow-md hover:text-softRed hover:bg-white"
-            >Inquiries</a
-          >
-        </div>
-        <!-- Hamburger button -->
-         <button id="menu-btn"
-         class="z-30 block p-5 md:hidden focus:outline-none 
-         hamburger"
-         >
+        <a href="#contact-form"
+          class="tracking-widest px-8 py-2 text-white bg-softRed border-2 border-softRed rounded-lg shadow-md hover:text-softRed hover:bg-white">Inquiries</a>
+      </div>
+      <!-- Hamburger button -->
+      <button id="menu-btn" class="z-30 block p-5 md:hidden focus:outline-none 
+         hamburger">
         <span class="hamburger-top"></span>
         <span class="hamburger-middle"></span>
         <span class="hamburger-bottom"></span>
-        </button>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div id="menu"
+      class="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-veryDarkBlue">
+      <div class="w-full py-3 text-center">
+        <a href="#about" class="block hover:text-softRed">About</a>
       </div>
-      <!-- Mobile Menu -->
-      <div id="menu" 
-       class="fixed inset-0 z-20 hidden flex-col items-center self-end w-full h-full m-h-screen px-6 py-1 pt-24 pb-4 tracking-widest text-white uppercase divide-y divide-gray-500 opacity-90 bg-veryDarkBlue"
-       >
-        <div class="w-full py-3 text-center">
-          <a href="#about" class="block hover:text-softRed">About</a>
-        </div>
-        <div class="w-full py-3 text-center">
-          <a href="#examples" class="block hover:text-softRed">Examples</a>
-        </div>
-        <div class="w-full py-3 text-center">
-          <a href="#pricing" class="block hover:text-softRed">Pricing</a>
-        </div>
-        <div class="w-full py-3 text-center">
-          <a href="#contact-form" class="block hover:text-softRed">Get Started</a>
-        </div>
-        <div class="w-full py-3 text-center hover:text-softRed">
-          <a href="#faq" class="block">FAQs</a>
-        </div>
+      <div class="w-full py-3 text-center">
+        <a href="#examples" class="block hover:text-softRed">Examples</a>
       </div>
-    </nav>
+      <div class="w-full py-3 text-center">
+        <a href="#pricing" class="block hover:text-softRed">Pricing</a>
+      </div>
+      <div class="w-full py-3 text-center">
+        <a href="#contact-form" class="block hover:text-softRed">Get Started</a>
+      </div>
+      <div class="w-full py-3 text-center hover:text-softRed">
+        <a href="#faq" class="block">FAQs</a>
+      </div>
+    </div>
+  </nav>
 
-    <!-- Hero Section -->
-    <section id="hero">
-      <!-- Container for Image & content -->
-      <div
-        class="container flex flex-col-reverse  mx-auto lg:flex-row lg:mb-0"
-      >
-        <div class="flex flex-col space-y-10 lg:mt-16 lg:w-1/2">
-          <h1
-            class="text-3xl font-semibold text-center lg:text-6xl lg:text-left"
-          >
-            Quality Social Media Management
-          </h1>
-          <p
-            class="max-w-md mx-auto text-lg text-center text-gray-400 lg:text-2xl lg:text-left lg:mt-0 lg:mx-0"
-          >
-            Our mission is to share the story and image of your small business
-            with the world through thoughtful, quality social media content to
-            reach your next customers.
-          </p>
-          <!-- Buttons Container -->
-          <div
-            class="flex items-center justify-center w-full space-x-4 lg:justify-start"
-          >
-            <a
-              href="#contact-form"
-              class="p-4 text-sm font-semibold text-white bg-softBlue rounded shadow-md border-2 border-softBlue md:text-base hover:bg-white hover:text-softBlue"
-              >Get Started</a
-            >
-            <a
-              href="#faq"
-              class="p-4 text-sm font-semibold text-black bg-gray-300 rounded shadow-md border-2 border-gray-300 md:text-base hover:bg-white hover:text-gray-600"
-              >FAQ</a
-            >
-          </div>
-        </div>
-        <!-- Image -->
-        <div class="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
-          <div class="bg-hero"></div>
-          <img
-            src="images/social-media-marketing.png"
-            alt=""
-            class="relative z-10 lg:top-24 xl:top-0 overflow-x-visible"
-          />
+  <!-- Hero Section -->
+  <section id="hero">
+    <!-- Container for Image & content -->
+    <div class="container flex flex-col-reverse  mx-auto lg:flex-row lg:mb-0 xl:px-16">
+      <div class="flex flex-col space-y-10 lg:mt-16 lg:w-1/2">
+        <h1 class="text-3xl font-semibold text-center lg:text-6xl lg:text-left">
+          Quality Social Media Management
+        </h1>
+        <p class="max-w-md mx-auto text-lg text-center text-gray-400 lg:text-2xl lg:text-left lg:mt-0 lg:mx-1">
+          Our mission is to share the story and image of your small business
+          with the world through thoughtful, quality social media content to
+          reach your next customers.
+        </p>
+        <!-- Buttons Container -->
+        <div class="flex items-center justify-center w-full space-x-4 lg:justify-start">
+          <a href="#contact-form"
+            class="p-4 text-sm font-semibold text-white bg-softBlue rounded shadow-md border-2 border-softBlue md:text-base hover:bg-white hover:text-softBlue">Get
+            Started</a>
+          <a href="#faq"
+            class="p-4 text-sm font-semibold text-black bg-gray-300 rounded shadow-md border-2 border-gray-300 md:text-base hover:bg-white hover:text-gray-600">FAQ</a>
         </div>
       </div>
-    </section>
-
-    <!-- Features Heading -->
-    <section id="about">
-      <div class="container mx-auto mt-16 px-6 md:mx-auto lg:mx-auto">
-        <h2 class="mb-6 text-4xl font-semibold text-center">What we offer</h2>
+      <!-- Image -->
+      <div class="relative mx-auto lg:mx-0 lg:mb-0 lg:w-1/2">
+        <div class="bg-hero"></div>
+        <img src="images/social-media-marketing.png" alt=""
+          class="relative z-10 lg:top-24 xl:top-0 overflow-x-visible" />
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Features Tabs -->
-    <section id="tabs">
-      <!-- Tabs Container -->
-      <div class="container relative mx-auto my-6 mb-32 mt-12 px-6">
-        <div class="bg-tabs"></div>
-        <!-- Tabs Flex Container -->
+  <!-- Features Heading -->
+  <section id="about">
+    <div class="container mx-auto mt-16 px-6 md:mx-auto lg:mx-auto">
+      <h2 class="mb-6 text-4xl font-semibold text-center">What we offer</h2>
+    </div>
+  </section>
+
+  <!-- Features Tabs -->
+  <section id="tabs">
+    <!-- Tabs Container -->
+    <div class="container relative mx-auto my-6 mb-32 mt-12 px-6">
+      <div class="bg-tabs"></div>
+      <!-- Tabs Flex Container -->
+      <div class="flex flex-col justify-center max-w-xl mx-auto mb-6 border-b md:space-x-10 md:flex-row">
+        <!-- Tab 1 -->
         <div
-          class="flex flex-col justify-center max-w-xl mx-auto mb-6 border-b md:space-x-10 md:flex-row"
-        >
-          <!-- Tab 1 -->
-          <div
-            class="flex justify-center text-center text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
-            data-target="panel-1"
-          >
-            <div class="py-5 border-softRed" data-target="panel-1">
-              Quality Social Media Content
-            </div>
-          </div>
-
-          <!-- Tab 2 -->
-          <div
-            class="flex justify-center text-center text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
-            data-target="panel-2"
-          >
-            <div class="py-5 border-softRed" data-target="panel-2">
-              Scheduled Posts
-            </div>
-          </div>
-
-          <!-- Tab 3 -->
-          <div
-            class="flex justify-center text-center text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
-            data-target="panel-3"
-          >
-            <div class="py-5 border-softRed" data-target="panel-3">
-              Increased Social Media Engagement
-            </div>
+          class="flex justify-center text-center text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
+          data-target="panel-1">
+          <div class="py-5 border-softRed" data-target="panel-1">
+            Quality Social Media Content
           </div>
         </div>
-        <!-- Tab Panels -->
-        <div id="panels" class="container mx-auto">
-          <!-- Panel 1 -->
-          <div
-            class="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-1"
-          >
-            <!-- Panel image -->
-            <div class="flex justify-center md:w-1/2 lg:scale-75">
-              <img src="images/content.png" alt="" class="relative z-10" />
-            </div>
-            <!-- panel content -->
-            <div class="flex flex-col space-y-8 md:w-1/2">
-              <h3
-                class="mt-32 text-3xl font-semibold text-center md:mt-0 md:text-left"
-              >
-                Quality Content
-              </h3>
-              <p class="max-w-md text-center text-grayishBlue md:text-left">
-                Every business has a story and we strive to bring that story to
-                light by creating quality short form video content that best
-                represents your product or service.
-              </p>
-            </div>
+
+        <!-- Tab 2 -->
+        <div
+          class="flex justify-center text-center text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
+          data-target="panel-2">
+          <div class="py-5 border-softRed" data-target="panel-2">
+            Scheduled Posts
           </div>
-          <!-- panel 2 -->
-          <div
-            class="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-2 hidden"
-          >
-            <!-- Panel image -->
-            <div class="flex justify-center md:w-1/2">
-              <img src="/images/timetable.png" alt="" class="relative z-10" />
-            </div>
-            <!-- panel content -->
-            <div class="flex flex-col space-y-8 md:w-1/2">
-              <h3
-                class="mt-32 text-3xl font-semibold text-center md:mt-0 md:text-left"
-              >
-                Posting on the clock
-              </h3>
-              <p class="max-w-md text-center text-grayishBlue md:text-left">
-                It’s so easy to lose track and keep up with the quick,
-                everchanging landscape of the algorithm. We take care of that
-                for you through scheduled posts that go up at the most effective
-                day and time!
-              </p>
-            </div>
-            <!-- Panel 3 -->
+        </div>
+
+        <!-- Tab 3 -->
+        <div
+          class="flex justify-center text-center text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
+          data-target="panel-3">
+          <div class="py-5 border-softRed" data-target="panel-3">
+            Increased Social Media Engagement
+          </div>
+        </div>
+      </div>
+      <!-- Tab Panels -->
+      <div id="panels" class="container mx-auto">
+        <!-- Panel 1 -->
+        <div class="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-1">
+          <!-- Panel image -->
+          <div class="flex justify-center md:w-1/2 lg:scale-75">
+            <img src="images/content.png" alt="" class="relative z-10" />
+          </div>
+          <!-- panel content -->
+          <div class="flex flex-col space-y-8 md:w-1/2">
+            <h3 class="mt-32 text-3xl font-semibold text-center md:mt-0 md:text-left">
+              Quality Content
+            </h3>
+            <p class="max-w-md text-center text-grayishBlue md:text-left">
+              Every business has a story and we strive to bring that story to
+              light by creating quality short form video content that best
+              represents your product or service.
+            </p>
+          </div>
+        </div>
+        <!-- panel 2 -->
+        <div class="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-2 hidden">
+          <!-- Panel image -->
+          <div class="flex justify-center md:w-1/2">
+            <img src="/images/timetable.png" alt="" class="relative z-10" />
+          </div>
+          <!-- panel content -->
+          <div class="flex flex-col space-y-8 md:w-1/2">
+            <h3 class="mt-32 text-3xl font-semibold text-center md:mt-0 md:text-left">
+              Posting on the clock
+            </h3>
+            <p class="max-w-md text-center text-grayishBlue md:text-left">
+              It’s so easy to lose track and keep up with the quick,
+              everchanging landscape of the algorithm. We take care of that
+              for you through scheduled posts that go up at the most effective
+              day and time!
+            </p>
           </div>
           <!-- Panel 3 -->
-          <div
-            class="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-3 hidden"
-          >
-            <!-- Panel image -->
-            <div class="flex justify-center md:w-1/2">
-              <img
-                src="./images/engagement1.png"
-                alt=""
-                class="relative z-10"
-              />
-            </div>
-            <!-- panel content -->
-            <div class="flex flex-col space-y-8 md:w-1/2">
-              <h3
-                class="mt-32 text-3xl font-semibold text-center md:mt-0 md:text-left"
-              >
-                Increased Engagement and Presence
-              </h3>
-              <p class="max-w-md text-center text-grayishBlue md:text-left">
-                Whether you are already started on social media or starting with
-                us tomorrow, our goal is to build a platform for you to engage
-                and build a community of new potential clients.
-              </p>
-            </div>
+        </div>
+        <!-- Panel 3 -->
+        <div class="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-3 hidden">
+          <!-- Panel image -->
+          <div class="flex justify-center md:w-1/2">
+            <img src="./images/engagement1.png" alt="" class="relative z-10" />
+          </div>
+          <!-- panel content -->
+          <div class="flex flex-col space-y-8 md:w-1/2">
+            <h3 class="mt-32 text-3xl font-semibold text-center md:mt-0 md:text-left">
+              Increased Engagement and Presence
+            </h3>
+            <p class="max-w-md text-center text-grayishBlue md:text-left">
+              Whether you are already started on social media or starting with
+              us tomorrow, our goal is to build a platform for you to engage
+              and build a community of new potential clients.
+            </p>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Examples -->
-    <section id="examples">
-      <div class="container mx-auto px-6 py-16 sm:py-8">
-        <h1 class="mb-6 text-4xl font-semibold text-center">Examples</h1>
-        <p
-          class="max-w-md mx-auto text-lg text-center text-gray-400 lg:text-2xl lg:text-left lg:mt-0 lg:mx-auto lg:mb-6"
-        >
-          Have a look at some of our current works.
-        </p>
-        <div
-          class="flex flex-col sm:flex-col md:flex-row justify-center sm:scale-75 md:scale-75"
-        >
-          <blockquote
-            class="tiktok-embed"
-            cite="https://www.tiktok.com/@ohagancareercoaching/video/7401149678538214702"
-            data-video-id="7401149678538214702"
-            style="max-width: 605px; min-width: 325px; margin-bottom: 20px"
-          >
-            <section>
-              <a
-                target="_blank"
-                title="@ohagancareercoaching"
-                href="https://www.tiktok.com/@ohagancareercoaching?refer=embed"
-                >@ohagancareercoaching</a
-              >
-              In an interview NEVER do this! 🗣️
-              <a
-                title="careeradvice"
-                target="_blank"
-                href="https://www.tiktok.com/tag/careeradvice?refer=embed"
-                >#careeradvice</a
-              >
-              <a
-                title="coach"
-                target="_blank"
-                href="https://www.tiktok.com/tag/coach?refer=embed"
-                >#coach</a
-              >
-              <a
-                title="consulting"
-                target="_blank"
-                href="https://www.tiktok.com/tag/consulting?refer=embed"
-                >#consulting</a
-              >
-              <a
-                title="coaching"
-                target="_blank"
-                href="https://www.tiktok.com/tag/coaching?refer=embed"
-                >#coaching</a
-              >
-              <a
-                title="career"
-                target="_blank"
-                href="https://www.tiktok.com/tag/career?refer=embed"
-                >#career</a
-              >
-              <a
-                target="_blank"
-                title="♬ original sound - ohagancareercoaching"
-                href="https://www.tiktok.com/music/original-sound-7401149648322202411?refer=embed"
-                >♬ original sound - ohagancareercoaching</a
-              >
-            </section>
-          </blockquote>
-            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/    @davidjosephvolino/video/7205818329221614894" data-video-id="7205818329221614894" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@davidjosephvolino" href="https://www.tiktok.com/@davidjosephvolino?refer=embed">@davidjosephvolino</a> If im being honest, i struggle with this. <a title="fypシ" target="_blank" href="https://www.tiktok.com/tag/fyp%E3%82%B7?refer=embed">#fypシ</a> <a title="podcast" target="_blank" href="https://www.tiktok.com/tag/podcast?refer=embed">#podcast</a> <a title="mentalhealth" target="_blank" href="https://www.tiktok.com/tag/mentalhealth?refer=embed">#mentalhealth</a> <a title="share" target="_blank" href="https://www.tiktok.com/tag/share?refer=embed">#share</a> @youareherepodcast <a target="_blank" title="♬ The Lonely Tree Longer - The Lonely Tree" href="https://www.tiktok.com/music/The-Lonely-Tree-Longer-7171800102644746241?refer=embed">♬ The Lonely Tree Longer - The Lonely Tree</a> </section>
-            </blockquote> 
+  <!-- Examples -->
+  <section id="examples">
+    <div class="container mx-auto px-6 py-16 sm:py-8">
+      <h1 class="mb-6 text-4xl font-semibold text-center">Examples</h1>
+      <p class="max-w-md mx-auto text-lg text-center text-gray-400 lg:text-2xl lg:text-left lg:mt-0 lg:mx-auto lg:mb-6">
+        Have a look at some of our current works.
+      </p>
+      <div class="flex flex-col sm:flex-col md:flex-row justify-center sm:scale-75 md:scale-75">
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@ohagancareercoaching/video/7401149678538214702"
+          data-video-id="7401149678538214702" style="max-width: 605px; min-width: 325px; margin-bottom: 20px">
+          <section>
+            <a target="_blank" title="@ohagancareercoaching"
+              href="https://www.tiktok.com/@ohagancareercoaching?refer=embed">@ohagancareercoaching</a>
+            In an interview NEVER do this! 🗣️
+            <a title="careeradvice" target="_blank"
+              href="https://www.tiktok.com/tag/careeradvice?refer=embed">#careeradvice</a>
+            <a title="coach" target="_blank" href="https://www.tiktok.com/tag/coach?refer=embed">#coach</a>
+            <a title="consulting" target="_blank"
+              href="https://www.tiktok.com/tag/consulting?refer=embed">#consulting</a>
+            <a title="coaching" target="_blank" href="https://www.tiktok.com/tag/coaching?refer=embed">#coaching</a>
+            <a title="career" target="_blank" href="https://www.tiktok.com/tag/career?refer=embed">#career</a>
+            <a target="_blank" title="♬ original sound - ohagancareercoaching"
+              href="https://www.tiktok.com/music/original-sound-7401149648322202411?refer=embed">♬ original sound -
+              ohagancareercoaching</a>
+          </section>
+        </blockquote>
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/    @davidjosephvolino/video/7205818329221614894"
+          data-video-id="7205818329221614894" style="max-width: 605px;min-width: 325px;">
+          <section> <a target="_blank" title="@davidjosephvolino"
+              href="https://www.tiktok.com/@davidjosephvolino?refer=embed">@davidjosephvolino</a> If im being honest, i
+            struggle with this. <a title="fypシ" target="_blank"
+              href="https://www.tiktok.com/tag/fyp%E3%82%B7?refer=embed">#fypシ</a> <a title="podcast" target="_blank"
+              href="https://www.tiktok.com/tag/podcast?refer=embed">#podcast</a> <a title="mentalhealth" target="_blank"
+              href="https://www.tiktok.com/tag/mentalhealth?refer=embed">#mentalhealth</a> <a title="share"
+              target="_blank" href="https://www.tiktok.com/tag/share?refer=embed">#share</a> @youareherepodcast <a
+              target="_blank" title="♬ The Lonely Tree Longer - The Lonely Tree"
+              href="https://www.tiktok.com/music/The-Lonely-Tree-Longer-7171800102644746241?refer=embed">♬ The Lonely
+              Tree Longer - The Lonely Tree</a> </section>
+        </blockquote>
 
-            <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@youareherepodcast/video/7177569156148088106" data-video-id="7177569156148088106" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@youareherepodcast" href="https://www.tiktok.com/@youareherepodcast?refer=embed">@youareherepodcast</a> <p>we open up so others can too</p> <a target="_blank" title="♬ original sound - You Are Here Podcast" href="https://www.tiktok.com/music/original-sound-7177569178986105643?refer=embed">♬ original sound - You Are Here Podcast</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>
+        <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@youareherepodcast/video/7177569156148088106"
+          data-video-id="7177569156148088106" style="max-width: 605px;min-width: 325px;">
+          <section> <a target="_blank" title="@youareherepodcast"
+              href="https://www.tiktok.com/@youareherepodcast?refer=embed">@youareherepodcast</a>
+            <p>we open up so others can too</p> <a target="_blank" title="♬ original sound - You Are Here Podcast"
+              href="https://www.tiktok.com/music/original-sound-7177569178986105643?refer=embed">♬ original sound - You
+              Are Here Podcast</a>
+          </section>
+        </blockquote>
+        <script async src="https://www.tiktok.com/embed.js"></script>
 
 
-          <script async src="https://www.tiktok.com/embed.js"></script>
-          <script async src="https://www.tiktok.com/embed.js"></script>
-          <script async src="//www.instagram.com/embed.js"></script>
+        <script async src="https://www.tiktok.com/embed.js"></script>
+        <script async src="https://www.tiktok.com/embed.js"></script>
+        <script async src="//www.instagram.com/embed.js"></script>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing">
+    <div class="container mx-auto px-6">
+      <h2 class="mb-6 text-3xl font-semibold text-center md:text-4xl">
+        Choose a plan
+      </h2>
+      <p class="max-w-lg mx-auto text-center text-grayishBlue">
+        Our current services
+      </p>
+    </div>
+  </section>
+
+  <!-- Pricing Boxes -->
+  <section id="pricing-boxes" class="py-24">
+    <!-- Boxes Container -->
+    <div
+      class="relative flex flex-col items-center max-w-5xl mx-auto space-y-10 px-10 md:px-6 md:space-y-0 md:space-x-7 md:flex-row">
+      <!-- Box 1 -->
+      <div class="w-full md:1/3">
+        <div class="flex flex-col w-full py-6 border border-r-2 space-y-4 text-center rounded-lg shadow-lg">
+          <!-- Image -->
+          <div class="flex justify-center">
+            <img class="h-16 w-16" src="images/high-quality.png" alt="" />
+          </div>
+          <!-- text -->
+          <h5 class="pt-6 text-xl font-bold">A la carte</h5>
+          <p class="text-xl text-gray-400">$70/Each</p>
+          <ul class="list-disc list-inside">
+            <h6 class="text-lg font-bold">Includes:</h6>
+            <li>Consultation</li>
+            <li>1 Video Post</li>
+            <li>Music</li>
+            <li>Description</li>
+            <li>Hashtags</li>
+          </ul>
         </div>
       </div>
-    </section>
-
-    <!-- Pricing -->
-    <section id="pricing">
-      <div class="container mx-auto px-6">
-        <h2 class="mb-6 text-3xl font-semibold text-center md:text-4xl">
-          Choose a plan
-        </h2>
-        <p class="max-w-lg mx-auto text-center text-grayishBlue">
-          Our current services
-        </p>
-      </div>
-    </section>
-
-    <!-- Pricing Boxes -->
-    <section id="pricing-boxes" class="py-24">
-      <!-- Boxes Container -->
-      <div
-        class="relative flex flex-col items-center max-w-5xl mx-auto space-y-10 px-10 md:px-6 md:space-y-0 md:space-x-7 md:flex-row"
-      >
-        <!-- Box 1 -->
-        <div class="w-full md:1/3">
-          <div
-            class="flex flex-col w-full py-6 border border-r-2 space-y-4 text-center rounded-lg shadow-lg"
-          >
-            <!-- Image -->
-            <div class="flex justify-center">
-              <img class="h-16 w-16" src="images/high-quality.png" alt="" />
-            </div>
-            <!-- text -->
-            <h5 class="pt-6 text-xl font-bold">A la carte</h5>
-            <p class="text-xl text-gray-400">$70/Each</p>
-            <ul class="list-disc list-inside">
-              <h6 class="text-lg font-bold">Includes:</h6>
-              <li>Consultation</li>
-              <li>1 Video Post</li>
-              <li>Music</li>
-              <li>Description</li>
-              <li>Hashtags</li>
-            </ul>
+      <!-- Box 2 -->
+      <div class="w-full md:1/3">
+        <div class="flex flex-col w-full py-6 border border-r-2 space-y-4 text-center rounded-lg shadow-lg">
+          <!-- Image -->
+          <div class="flex justify-center">
+            <img class="h-16 w-16" src="images/premium-quality (1).png" alt="" />
           </div>
-        </div>
-        <!-- Box 2 -->
-        <div class="w-full md:1/3">
-          <div
-            class="flex flex-col w-full py-6 border border-r-2 space-y-4 text-center rounded-lg shadow-lg"
-          >
-            <!-- Image -->
-            <div class="flex justify-center">
-              <img
-                class="h-16 w-16"
-                src="images/premium-quality (1).png"
-                alt=""
-              />
-            </div>
-            <!-- text -->
-            <h5 class="pt-6 text-xl font-bold">Full Package</h5>
-            <p class="text-xl text-gray-400">$500</p>
-            <ul class="list-disc list-inside">
-              <h6 class="text-lg font-bold">Includes:</h6>
-              <li>In-Depth Consultation:</li>
-              <h6 class="font-light italic">Meeting & Briefing</h6>
-              <li>12-15 Video Post</li>
-              <li>Subtitles</li>
-              <li>Music</li>
-              <h6 class="text-lg font-bold">** No Fuss **</h6>
-              <h6 class="text-md">Distribution/posting handled by us</h6>
-            </ul>
-          </div>
+          <!-- text -->
+          <h5 class="pt-6 text-xl font-bold">Full Package</h5>
+          <p class="text-xl text-gray-400">$500</p>
+          <ul class="list-disc list-inside">
+            <h6 class="text-lg font-bold">Includes:</h6>
+            <li>In-Depth Consultation:</li>
+            <h6 class="font-light italic">Meeting & Briefing</h6>
+            <li>12-15 Video Post</li>
+            <li>Subtitles</li>
+            <li>Music</li>
+            <h6 class="text-lg font-bold">** No Fuss **</h6>
+            <h6 class="text-md">Distribution/posting handled by us</h6>
+          </ul>
         </div>
       </div>
-    </section>
-    <!-- Contact Form -->
+    </div>
+  </section>
+  <!-- Contact Form -->
 
-    <section id="contact-form">
-      <div class="container mx-auto mt-16 px-6 md:mx-auto lg:mx-auto mb-10">
-        <h2 class="mb-6 text-4xl font-semibold text-center">Get Started</h2>
-        <p class="max-w-md mx-auto text-center pb-6 text-grayishBlue">
-          Feel free to securely enter your personal information below and send
-          us your name, email, and a short message explaining what plan you are
-          interested in and a bit about yourself. We will get back to you as
-          soon as we can. From there we will get in touch to schedule a meeting
-          and talk one on one.
-        </p>
-        <form
-          action="https://api.web3forms.com/submit"
-          method="POST"
-          class="max-w-screen-lg mx-auto bg-slate-100 p-6 rounded-lg shadow-md"
-        >
-          <!-- Replace with your Access Key -->
-          <input
-            type="hidden"
-            name="access_key"
-            value="bcf2300d-e7b0-4b7d-8ffc-f4af1e5bbf57"
-          />
+  <section id="contact-form">
+    <div class="container mx-auto mt-16 px-6 md:mx-auto lg:mx-auto mb-10">
+      <h2 class="mb-6 text-4xl font-semibold text-center">Get Started</h2>
+      <p class="max-w-md mx-auto text-center pb-6 text-grayishBlue">
+        Feel free to securely enter your personal information below and send
+        us your name, email, and a short message explaining what plan you are
+        interested in and a bit about yourself. We will get back to you as
+        soon as we can. From there we will get in touch to schedule a meeting
+        and talk one on one.
+      </p>
+      <form action="https://api.web3forms.com/submit" method="POST"
+        class="max-w-screen-lg mx-auto bg-slate-100 p-6 rounded-lg shadow-md">
+        <!-- Replace with your Access Key -->
+        <input type="hidden" name="access_key" value="bcf2300d-e7b0-4b7d-8ffc-f4af1e5bbf57" />
 
-          <!-- Form Inputs. Each input must have a name="" attribute -->
-          <div class="mb-4">
-            <label for="name" class="block text-gray-700 font-bold mb-2"
-              >Name</label
-            >
-            <input
-              type="text"
-              name="name"
-              id="name"
-              required
-              class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
-          </div>
+        <!-- Form Inputs. Each input must have a name="" attribute -->
+        <div class="mb-4">
+          <label for="name" class="block text-gray-700 font-bold mb-2">Name</label>
+          <input type="text" name="name" id="name" required
+            class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
+        </div>
 
-          <div class="mb-4">
-            <label for="email" class="block text-gray-700 font-bold mb-2"
-              >Email</label
-            >
-            <input
-              type="email"
-              name="email"
-              id="email"
-              required
-              class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
-          </div>
+        <div class="mb-4">
+          <label for="email" class="block text-gray-700 font-bold mb-2">Email</label>
+          <input type="email" name="email" id="email" required
+            class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
+        </div>
 
-          <div class="mb-4">
-            <label for="phone-number" class="block text-gray-700 font-bold mb-2"
-              >Phone Number</label
-            >
-            <input
-              type="number"
-              name="phone-number"
-              id="phone-number"
-              class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
-          </div>
+        <div class="mb-4">
+          <label for="phone-number" class="block text-gray-700 font-bold mb-2">Phone Number</label>
+          <input type="number" name="phone-number" id="phone-number"
+            class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" />
+        </div>
 
-          <!-- Question 1 -->
-          <div class="mb-4">
-            <label for="message" class="block text-gray-700 font-bold mb-2"
-              >Q1: How would you describe your business?</label
-            >
-            <textarea
-              name="question-1"
-              id="question-1"
-              class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-            ></textarea>
-          </div>
-          <!-- Question 2 -->
-          <div class="mb-4">
-            <label for="message" class="block text-gray-700 font-bold mb-2"
-              >Q2: How do you think social media posts would help your
-              business?</label
-            >
-            <textarea
-              name="question-2"
-              id="question-2"
-              class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-            ></textarea>
-          </div>
-          <!-- Question 3 -->
-          <div class="mb-4">
-            <label for="message" class="block text-gray-700 font-bold mb-2"
-              >Q3: What result are you looking to achieve through posting to
-              social media?</label
-            >
-            <textarea
-              name="question-3"
-              id="question-3"
-              class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-            ></textarea>
-          </div>
+        <!-- Question 1 -->
+        <div class="mb-4">
+          <label for="message" class="block text-gray-700 font-bold mb-2">Q1: How would you describe your
+            business?</label>
+          <textarea name="question-1" id="question-1"
+            class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
+        <!-- Question 2 -->
+        <div class="mb-4">
+          <label for="message" class="block text-gray-700 font-bold mb-2">Q2: How do you think social media posts would
+            help your
+            business?</label>
+          <textarea name="question-2" id="question-2"
+            class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
+        <!-- Question 3 -->
+        <div class="mb-4">
+          <label for="message" class="block text-gray-700 font-bold mb-2">Q3: What result are you looking to achieve
+            through posting to
+            social media?</label>
+          <textarea name="question-3" id="question-3"
+            class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
 
-          <!-- Question 4 -->
-          <div class="mb-4">
-            <label for="message" class="block text-gray-700 font-bold mb-2"
-              >Q4: What message do you want to portay to potenital
-              viewers/customers?</label
-            >
-            <textarea
-              name="question-4"
-              id="question-4"
-              class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-            ></textarea>
-          </div>
+        <!-- Question 4 -->
+        <div class="mb-4">
+          <label for="message" class="block text-gray-700 font-bold mb-2">Q4: What message do you want to portay to
+            potenital
+            viewers/customers?</label>
+          <textarea name="question-4" id="question-4"
+            class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
 
-          <!-- Question 5 -->
-          <div class="mb-4">
-            <label for="message" class="block text-gray-700 font-bold mb-2"
-              >Q5: What do you think is the most important part of growing on
-              social media?</label
-            >
-            <textarea
-              name="question-5"
-              id="question-5"
-              class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
-            ></textarea>
-          </div>
+        <!-- Question 5 -->
+        <div class="mb-4">
+          <label for="message" class="block text-gray-700 font-bold mb-2">Q5: What do you think is the most important
+            part of growing on
+            social media?</label>
+          <textarea name="question-5" id="question-5"
+            class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+        </div>
 
-          <!-- Honeypot Spam Protection -->
-          <input
-            type="checkbox"
-            name="botcheck"
-            class="hidden"
-            style="display: none"
-          />
+        <!-- Honeypot Spam Protection -->
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none" />
 
-          <!-- Custom Confirmation / Success Page -->
-          <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
+        <!-- Custom Confirmation / Success Page -->
+        <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
 
-          <div class="text-center">
-            <button
-              type="submit"
-              class="bg-blue-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
-            >
-              Submit Form
-            </button>
-          </div>
-        </form>
-      </div>
-    </section>
-    <!-- Faq Heading -->
-    <!-- <section id="faq">
+        <div class="text-center">
+          <button type="submit"
+            class="bg-blue-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            Submit Form
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <!-- Faq Heading -->
+  <!-- <section id="faq">
       <div class="container mx-auto">
         <h2 class="mb-6 text-3xl font-semibold text-center md:text-4xl">
           Frequently Asked Questions
@@ -588,43 +462,43 @@
       </div> -->
 
 
-    <!-- </section>     -->
-    <!-- FAQ Accordion -->
-    <!-- <section id="faq-accordion"> -->
-    <!-- Main container -->
-    <!-- <div class="container mx-auto px-6 py-6 mb-32"> -->
-      <!-- Accordion Container -->
-      <!-- <div class="max-w-2xl m-8 mx-auto overflow-hidden"> -->
-        <!-- tab 1 -->
-        <!-- <div class="py-1 border-b outline-none group" tabindex="1"> -->
-          <!-- tab flex container -->
-          <!-- <div -->
-            <!-- class="flex items-center justify-between py-3 text-gray-500 transition duration-500 cursor-pointer group ease" -->
-          <!-- > -->
-            <!-- tab title -->
-            <!-- <div -->
-              <!-- class="transition duration-500 ease group-hover:text-red-500" -->
-            <!-- > -->
-              <!-- What is You are Here Media? -->
-            <!-- </div> -->
-            <!-- Arrow -->
-            <!-- <div -->
-              <!-- class="transition duration-500 ease group-focus:-rotate-180 group-focus:text-red-500" -->
-            <!-- > -->
-              <!-- <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"> -->
-                <!-- <path -->
-                  <!-- fill="none" -->
-                  <!-- stroke="currentColor" -->
-                  <!-- stroke-width="3" -->
-                  <!-- d="M1 1l8 8 8-8" -->
-                <!-- /> -->
-              <!-- </svg> -->
-            <!-- </div> -->
-          <!-- </div> -->
-          <!-- Tab Inner content -->
-          <!-- <div -->
-            <!-- class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease" -->
-          <!-- >
+  <!-- </section>     -->
+  <!-- FAQ Accordion -->
+  <!-- <section id="faq-accordion"> -->
+  <!-- Main container -->
+  <!-- <div class="container mx-auto px-6 py-6 mb-32"> -->
+  <!-- Accordion Container -->
+  <!-- <div class="max-w-2xl m-8 mx-auto overflow-hidden"> -->
+  <!-- tab 1 -->
+  <!-- <div class="py-1 border-b outline-none group" tabindex="1"> -->
+  <!-- tab flex container -->
+  <!-- <div -->
+  <!-- class="flex items-center justify-between py-3 text-gray-500 transition duration-500 cursor-pointer group ease" -->
+  <!-- > -->
+  <!-- tab title -->
+  <!-- <div -->
+  <!-- class="transition duration-500 ease group-hover:text-red-500" -->
+  <!-- > -->
+  <!-- What is You are Here Media? -->
+  <!-- </div> -->
+  <!-- Arrow -->
+  <!-- <div -->
+  <!-- class="transition duration-500 ease group-focus:-rotate-180 group-focus:text-red-500" -->
+  <!-- > -->
+  <!-- <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"> -->
+  <!-- <path -->
+  <!-- fill="none" -->
+  <!-- stroke="currentColor" -->
+  <!-- stroke-width="3" -->
+  <!-- d="M1 1l8 8 8-8" -->
+  <!-- /> -->
+  <!-- </svg> -->
+  <!-- </div> -->
+  <!-- </div> -->
+  <!-- Tab Inner content -->
+  <!-- <div -->
+  <!-- class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease" -->
+  <!-- >
             <p class="py-2 text-justify text-gray-400">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat,
               repellat amet doloribus consequuntur eos similique provident
@@ -633,20 +507,20 @@
             </p>
           </div>
         </div> -->
-        <!-- tab 1 -->
-        <!-- <div class="py-1 border-b outline-none group" tabindex="1"> -->
-          <!-- tab flex container -->
-          <!-- <div -->
-            <!-- class="flex items-center justify-between py-3 text-gray-500 transition duration-500 cursor-pointer group ease" -->
-          <!-- > -->
-            <!-- tab title -->
-            <!-- <div -->
-              <!-- class="transition duration-500 ease group-hover:text-red-500" -->
-            <!-- > -->
-              <!-- Are the posts custom made? -->
-            <!-- </div> -->
-            <!-- Arrow -->
-            <!-- <div
+  <!-- tab 1 -->
+  <!-- <div class="py-1 border-b outline-none group" tabindex="1"> -->
+  <!-- tab flex container -->
+  <!-- <div -->
+  <!-- class="flex items-center justify-between py-3 text-gray-500 transition duration-500 cursor-pointer group ease" -->
+  <!-- > -->
+  <!-- tab title -->
+  <!-- <div -->
+  <!-- class="transition duration-500 ease group-hover:text-red-500" -->
+  <!-- > -->
+  <!-- Are the posts custom made? -->
+  <!-- </div> -->
+  <!-- Arrow -->
+  <!-- <div
               class="transition duration-500 ease group-focus:-rotate-180 group-focus:text-red-500"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12">
@@ -659,8 +533,8 @@
               </svg>
             </div>
           </div> -->
-          <!-- Tab Inner content -->
-          <!-- <div
+  <!-- Tab Inner content -->
+  <!-- <div
             class="overflow-hidden transition duration-500 group-focus:max-h-screen max-h-0 ease"
           >
             <p class="py-2 text-justify text-gray-400">
@@ -676,72 +550,72 @@
   </section>  -->
 
 
-<!-- Footer -->
-<footer class="py-16 bg-slate-400">
-  <div
-    class="container flex flex-col items-center justify-center mx-auto space-y-16 px-6 md:flex-row md:space-y-0"
-  >
-    <!-- Logo/Menu Container -->
-    <div
-      class="flex flex-col items-center justify-center space-y-8 text-lg font-light md:flex-row md:space-y-8 md:space-x-14 text-white"
-    >
-      <?xml version="1.0" encoding="UTF-8"?>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250" id="logo">
-        <defs>
-          <style>
-            .cls-1 {
-              fill: #fff;
-            }
+  <!-- Footer -->
+  <footer class="py-16 bg-slate-400">
+    <div class="container flex flex-col items-center justify-center mx-auto space-y-16 px-6 md:flex-row md:space-y-0">
+      <!-- Logo/Menu Container -->
+      <div
+        class="flex flex-col items-center justify-center space-y-8 text-lg font-light md:flex-row md:space-y-8 md:space-x-14 text-white">
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 250" id="logo">
+          <defs>
+            <style>
+              .cls-1 {
+                fill: #fff;
+              }
 
-            .cls-2 {
-              letter-spacing: -.03em;
-            }
+              .cls-2 {
+                letter-spacing: -.03em;
+              }
 
-            .cls-3 {
-              font-family: Montserrat-ExtraBold, Montserrat;
-              font-size: 29.98px;
-              font-weight: 700;
-            }
-          </style>
-        </defs>
-        <g id="Layer_4">
-          <polygon points="125.64 152.9 167.46 80.46 83.81 80.46 125.64 152.9"/>
-          <g id="Layer_2">
-            <circle cx="125.64" cy="57.62" r="47.62"/>
-            <circle class="cls-1" cx="125.64" cy="57.41" r="26.97"/>
+              .cls-3 {
+                font-family: Montserrat-ExtraBold, Montserrat;
+                font-size: 29.98px;
+                font-weight: 700;
+              }
+            </style>
+          </defs>
+          <g id="Layer_4">
+            <polygon points="125.64 152.9 167.46 80.46 83.81 80.46 125.64 152.9" />
+            <g id="Layer_2">
+              <circle cx="125.64" cy="57.62" r="47.62" />
+              <circle class="cls-1" cx="125.64" cy="57.41" r="26.97" />
+            </g>
           </g>
-        </g>
-        <g id="Layer_3">
-          <text class="cls-3" transform="translate(6.56 197.58)"><tspan class="cls-2" x="0" y="0">Y</tspan><tspan x="19.87" y="0">OU ARE HERE</tspan><tspan x="65.77" y="35.39">MEDIA</tspan></text>
-        </g>
-      </svg>
-    
+          <g id="Layer_3">
+            <text class="cls-3" transform="translate(6.56 197.58)">
+              <tspan class="cls-2" x="0" y="0">Y</tspan>
+              <tspan x="19.87" y="0">OU ARE HERE</tspan>
+              <tspan x="65.77" y="35.39">MEDIA</tspan>
+            </text>
+          </g>
+        </svg>
 
-      <a href="#about" class="uppercase hover:text-softRed">About</a>
-      <a href="#examples" class="uppercase hover:text-softRed">Examples</a>
-      <a href="#pricing" class="uppercase hover:text-softRed">Pricing</a>
-      <a href="#contact-form" class="uppercase hover:text-softRed"
-        >Get Started</a
-      >
-    </div>
-  </div>
 
-        <!-- Socials Container -->
-        <div class="flex justify-center p-10 space-x-10">
-          <a href="#">
-            <img src="./images/instagram.png" alt="" class="h-6 ficon" />
-          </a>
-          <a href="#">
-            <img src="./images/facebook.png" alt="" class="h-6 ficon" />
-          </a>
-          <a href="#">
-            <img src="./images/tik-tok.png" alt="" class="h-6 ficon" />
-          </a>
-          <a href="#">
-            <img src="./images/youtube.png" alt="" class="h-6 ficon" />
-          </a>
-        </div>
+        <a href="#about" class="uppercase hover:text-softRed">About</a>
+        <a href="#examples" class="uppercase hover:text-softRed">Examples</a>
+        <a href="#pricing" class="uppercase hover:text-softRed">Pricing</a>
+        <a href="#contact-form" class="uppercase hover:text-softRed">Get Started</a>
       </div>
-    </footer>
-  </body>
+    </div>
+
+    <!-- Socials Container -->
+    <div class="flex justify-center p-10 space-x-10">
+      <a href="#">
+        <img src="./images/instagram.png" alt="" class="h-6 ficon" />
+      </a>
+      <a href="#">
+        <img src="./images/facebook.png" alt="" class="h-6 ficon" />
+      </a>
+      <a href="#">
+        <img src="./images/tik-tok.png" alt="" class="h-6 ficon" />
+      </a>
+      <a href="#">
+        <img src="./images/youtube.png" alt="" class="h-6 ficon" />
+      </a>
+    </div>
+    </div>
+  </footer>
+</body>
+
 </html>

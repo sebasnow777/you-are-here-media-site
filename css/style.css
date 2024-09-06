@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.7 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.10 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -620,18 +620,14 @@ video {
   margin-right: auto;
 }
 
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .mb-10 {
@@ -680,10 +676,6 @@ video {
 
 .h-16 {
   height: 4rem;
-}
-
-.h-32 {
-  height: 8rem;
 }
 
 .h-6 {
@@ -758,10 +750,6 @@ video {
   flex-direction: column-reverse;
 }
 
-.flex-wrap {
-  flex-wrap: wrap;
-}
-
 .items-center {
   align-items: center;
 }
@@ -816,12 +804,6 @@ video {
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 
-.space-y-6 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-}
-
 .divide-y > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-y-reverse: 0;
   border-top-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
@@ -867,10 +849,6 @@ video {
 
 .border-b {
   border-bottom-width: 1px;
-}
-
-.border-b-4 {
-  border-bottom-width: 4px;
 }
 
 .border-r-2 {
@@ -927,10 +905,6 @@ video {
   background-color: hsl(229 31% 21% / var(--tw-bg-opacity));
 }
 
-.p-0 {
-  padding: 0px;
-}
-
 .p-10 {
   padding: 2.5rem;
 }
@@ -949,10 +923,6 @@ video {
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-1 {
-  padding: 0.25rem;
 }
 
 .px-10 {
@@ -1000,11 +970,6 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.py-32 {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-}
-
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -1013,11 +978,6 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .pb-4 {
@@ -1303,14 +1263,6 @@ video {
 }
 
 @media (min-width: 480px) {
-  .sm\:w-20 {
-    width: 5rem;
-  }
-
-  .sm\:w-full {
-    width: 100%;
-  }
-
   .sm\:scale-75 {
     --tw-scale-x: .75;
     --tw-scale-y: .75;
@@ -1321,27 +1273,9 @@ video {
     flex-direction: column;
   }
 
-  .sm\:p-3 {
-    padding: 0.75rem;
-  }
-
-  .sm\:p-5 {
-    padding: 1.25rem;
-  }
-
   .sm\:py-8 {
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
-
-  .sm\:py-4 {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-
-  .sm\:py-2 {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
   }
 }
 
@@ -1371,12 +1305,6 @@ video {
     width: 33.333333%;
   }
 
-  .md\:scale-100 {
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
   .md\:scale-75 {
     --tw-scale-x: .75;
     --tw-scale-y: .75;
@@ -1385,10 +1313,6 @@ video {
 
   .md\:flex-row {
     flex-direction: row;
-  }
-
-  .md\:justify-between {
-    justify-content: space-between;
   }
 
   .md\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
@@ -1419,12 +1343,6 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(2rem * var(--tw-space-y-reverse));
-  }
-
-  .md\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(1.5rem * var(--tw-space-x-reverse));
-    margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
   }
 
   .md\:border-b-0 {
@@ -1466,6 +1384,11 @@ video {
     margin-right: auto;
   }
 
+  .lg\:mx-1 {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+
   .lg\:mb-0 {
     margin-bottom: 0px;
   }
@@ -1486,10 +1409,6 @@ video {
     width: 50%;
   }
 
-  .lg\:w-1\/3 {
-    width: 33.333333%;
-  }
-
   .lg\:scale-75 {
     --tw-scale-x: .75;
     --tw-scale-y: .75;
@@ -1502,10 +1421,6 @@ video {
 
   .lg\:justify-start {
     justify-content: flex-start;
-  }
-
-  .lg\:p-0 {
-    padding: 0px;
   }
 
   .lg\:text-left {
@@ -1526,5 +1441,20 @@ video {
 @media (min-width: 1440px) {
   .xl\:top-0 {
     top: 0px;
+  }
+
+  .xl\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .xl\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .xl\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 }
